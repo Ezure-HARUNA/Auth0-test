@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-import { useUser } from "../lib/user";
+import { useUser } from "../../examples/lib/user";
 
 const Header = () => {
   const { user, loading } = useUser();

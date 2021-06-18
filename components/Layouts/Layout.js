@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 
 import Header from "./header";
-import { UserProvider } from "../lib/user";
+import { UserProvider } from "../../examples/lib/user";
 
 const Layout = ({ user, loading = false, children }) => (
   <UserProvider value={{ user, loading }}>

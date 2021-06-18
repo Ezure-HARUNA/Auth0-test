@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/Layouts/Layout";
-import { useFetchUser } from "../lib/user";
+import { useFetchUser } from "../examples/lib/user";
 
 export default function Home() {
   const { user, loading } = useFetchUser();
